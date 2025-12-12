@@ -1,0 +1,55 @@
+{
+  "title": "LGS Türkçe Soru Bankası (2018-2025)",
+  "subtitle": "MEB LGS Türkçe Örnek Soruları - NLP ve Eğitim Araştırmaları İçin",
+  "description": "T.C. Millî Eğitim Bakanlığı (MEB) tarafından yayınlanan Liselere Geçiş Sınavı (LGS) Türkçe örnek sorularını içeren kapsamlı bir veri seti. 7 akademik yılı (2018-2025) kapsayan 371 soru, doğal dil işleme (NLP), soru-cevap sistemleri ve eğitim teknolojileri araştırmaları için derlenmiştir.",
+  "id": "lgs-turkce-soru-bankasi",
+  "licenses": [
+    {
+      "name": "CC BY-NC-SA 4.0"
+    }
+  ],
+  "keywords": [
+    "turkish",
+    "nlp",
+    "education",
+    "question-answering",
+    "lgs",
+    "meb",
+    "turkce",
+    "reading-comprehension",
+    "multiple-choice",
+    "exam",
+    "turkey"
+  ],
+  "collaborators": [],
+  "data": [
+    {
+      "description": "Tüm LGS Türkçe soruları (CSV format)",
+      "name": "lgs_turkce_sorulari.csv",
+      "totalBytes": 438476,
+      "columns": [
+        {"name": "soru_id", "description": "Benzersiz soru kimliği"},
+        {"name": "yil", "description": "Akademik yıl (2018-2019, 2019-2020, vb.)"},
+        {"name": "ay", "description": "Yayın ayı"},
+        {"name": "soru_no", "description": "Soru numarası (1-10)"},
+        {"name": "soru_metni", "description": "Soru paragrafı ve soru cümlesi"},
+        {"name": "secenek_A", "description": "A şıkkı metni"},
+        {"name": "secenek_B", "description": "B şıkkı metni"},
+        {"name": "secenek_C", "description": "C şıkkı metni"},
+        {"name": "secenek_D", "description": "D şıkkı metni"},
+        {"name": "dogru_cevap", "description": "Doğru cevap (A/B/C/D)"},
+        {"name": "kaynak", "description": "Kaynak PDF dosya adı"}
+      ]
+    },
+    {
+      "description": "Kalite filtreli geçerli sorular (CSV format)",
+      "name": "lgs_turkce_gecerli.csv",
+      "totalBytes": 385741
+    },
+    {
+      "description": "Tüm sorular (JSON format)",
+      "name": "lgs_turkce_sorulari.json",
+      "totalBytes": 530227
+    }
+  ]
+}
